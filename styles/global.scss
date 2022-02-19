@@ -1,0 +1,12 @@
+@import '~bulma/bulma';
+@import './navbar';
+
+.post-preview__card {
+    min-width: 375px;
+    min-height: 300px;
+}
+
+.post-preview__wrapper {
+    align-items: baseline;
+    margin: 0 auto;
+}
