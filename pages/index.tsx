@@ -14,9 +14,9 @@ const Index = ({ posts, work }) => {
     <Layout>
       <Hero />
       <RecentPosts posts={posts} />
-      <button className="js-modal-trigger" data-target="modal-js-example">
+      {/* <button className="js-modal-trigger" data-target="modal-js-example">
         Open JS example modal
-      </button>
+      </button> */}
       <div className="modal" id="modal-js-example">
         <div className="modal-background"></div>
         <div className="modal-content">
