@@ -1,0 +1,24 @@
+.movie-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    margin-bottom: 2em;
+    margin: 1em;
+  }
+
+  .movie-img{
+      width: 100%;
+  }
+  
+  .movie-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .movie-card__container {
+    padding: 2px 16px;
+  }
+
+  .movie-card-container {
+      display: flex;
+      flex-wrap: wrap;
+  }

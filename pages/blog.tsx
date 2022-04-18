@@ -9,7 +9,7 @@ import BlogList from '../components/Blog-list/BlogList'
 
  const Blog = ({ posts }) => {
   return (
-    <Layout>
+    <Layout container={"container.is-fullhd"}>
       <Hero/>
       <BlogList postsData={posts} />
     </Layout>

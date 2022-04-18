@@ -4,11 +4,11 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
 
-const Layout = ({children}) => {
+const Layout = ({children, container}) => {
     return (
         <>
             <Header/>
-            <main className="is-fluid">{children}</main>
+            <main className={container}>{children}</main>
             <Footer/>
         </>
     )

@@ -10,7 +10,7 @@ import MdxContent from '../../components/MdxContent/MdxContent'
 
 const PostPage = ({ frontmatter, slug, content }) => {
     return (
-        <Layout>
+        <Layout container={"container.is-fullhd"}>
             <HeroSecondary postData={frontmatter} />
             <MdxContent content={content} />
         </Layout>

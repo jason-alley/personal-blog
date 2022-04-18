@@ -1,11 +1,19 @@
+import Link from "next/link"
 const BlogList = ({ postsData }) => {
     return (
-        <section className="section">
-            {console.log(postsData)}
+        <section className="section container">
             {postsData.map((post, index) => {
-                <div className="box" key={index}>
-                    <p className="title">{post.frontmatter.title}</p>
-                </div>
+                return (
+                    <div className="box" key={index}>
+                        <p className="title">{post.frontmatter.title}</p>
+                        <span className="tag is-warning is-light has-text-weight-medium">{post.frontmatter.author}</span>
+                        <span className="tag is-light has-text-weight-medium ml-4">{post.frontmatter.date}</span>
+                        <p className="block mt-4">{post.frontmatter.excerpt}</p>
+                        <Link href={`/blog/${post.slug}`}>
+                            <a className="has-text-weight-semibold has-text-dark"> Read More -&gt; </a>
+                        </Link>
+                    </div>
+                )
             })}
         </section>
     )
