@@ -14,9 +14,6 @@ const Index = ({ posts, work }) => {
     <Layout container={"container.is-fullhd"}>
       <Hero />
       <RecentPosts posts={posts} />
-      {/* <button className="js-modal-trigger" data-target="modal-js-example">
-        Open JS example modal
-      </button> */}
       <div className="modal" id="modal-js-example">
         <div className="modal-background"></div>
         <div className="modal-content">
