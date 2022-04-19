@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/index.tsx", "pages/posts/[slug].js", "components/Recent-posts/Recent-posts.tsx", "pages/blog/[slug].tsx", "utils/sort-by-date.js"  ],
+, "pages/index.tsx", "pages/posts/[slug].js", "components/Recent-posts/Recent-posts.tsx", "pages/blog/[slug].tsx", "utils/sort-by-date.ts"  ],
   "exclude": [
     "node_modules"
   ]
