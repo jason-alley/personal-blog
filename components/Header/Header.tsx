@@ -25,7 +25,7 @@ const Header = () => {
                             </a>
                         </Link>
 
-                        <Link href="/">
+                        <Link href="/my-work">
                             <a className="navbar-item">
                                 My work
                             </a>
