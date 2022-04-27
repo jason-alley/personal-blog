@@ -11,7 +11,7 @@ import FeaturedWorks from '../components/Featured-works/Featured-work'
 
 const Index = ({ posts, work }) => {
   return (
-    <Layout>
+    <Layout container={"container"} >
       <Hero />
       <RecentPosts posts={posts} />
       <div className="modal" id="modal-js-example">
